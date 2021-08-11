@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/operadores.css">
+    <title>Operadores Básicos</title>
+</head>
+<body>
+    <div class="geral">
+    <header>
+        <div class="navbar-content">
+            <div class="navbar-home">
+                <a href="../index.html"><strong>SomeNumber</strong></a>
+            </div>
+            <div class="separador"></div>
+            <div class="navbar-links">
+                <a href="./operadores.html">Operadores Básicos</a>
+                <a href="./regradetres.html">Regra de Três</a>
+                <a href="./restodedivisao.html">Resto de Divisão</a>
+                <a href="./porcentagem.html">Porcentagem</a>
+            </div>
+            <div class="github-profile">
+                <a href="https://github.com/Kaua-Cavalcante" target="_blank">GitHub @Kaua-Cavalcante</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="description">
+            <h1>Operadores básicos</h1>
+            <h2>Faça calculos utilizando os operadores de adição, subtração, multiplicação e divisão.</h2>
+        </div>
+        <div class="calculadora">
+            <div class="app-input">
+                <div class="input-group">
+                    <label for="adicao">Adição</label>
+                    <div class="break"></div>
+                    <input type="number" class="adicao1"> <span>+</span> <input type="number" class="adicao2">
+                    <div class="break"></div>
+                    <div class="result-container">
+                        <button onclick="somar()">Calcular</button>
+                        <div class="result1"><p class="resultado1 font-contrast1">Resultado</p></div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="subtracao">Subtração</label>
+                    <div class="break"></div>
+                    <input type="number" class="subtracao1"> <span>-</span> <input type="number" class="subtracao2">
+                    <div class="break"></div>
+                    <div class="result-container">
+                        <button onclick="subtrair()">Calcular</button>
+                        <div class="result2"><p class="resultado2 font-contrast2">Resultado</p></div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="multiplicacao">Multiplicação</label>
+                    <div class="break"></div>
+                    <input type="number" class="multiplicacao1"> <span>x</span> <input type="number" class="multiplicacao2">
+                    <div class="break"></div>
+                    <div class="result-container">
+                        <button onclick="multiplicar()">Calcular</button>
+                        <div class="result3"><p class="resultado3 font-contrast3">Resultado</p></div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="divisao">Divisão</label>
+                    <div class="break"></div>
+                    <input type="number" class="divisao1"> <span>/</span> <input type="number" class="divisao2">
+                    <div class="break"></div>
+                    <div class="result-container">
+                        <button onclick="dividir()">Calcular</button>
+                        <div class="result4"><p class="resultado4 font-contrast4">Resultado</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">            
+            <a href="https://github.com/Kaua-Cavalcante" target="_blank">GitHub @Kaua-Cavalcante</a>
+            <h5>SomeNumber</h5>
+        </div>
+    </footer>
+    </div>
+    <script src="../scripts/calculos.js"></script>
+</body>
+</html>

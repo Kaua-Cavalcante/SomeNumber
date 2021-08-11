@@ -1,0 +1,64 @@
+header {
+    position: relative;
+    padding: 5px;
+    background: #15b8c4;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size:  0.7rem;
+    color: #fff;
+}
+
+.navbar-home > a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.separador {
+    height: 25px;
+    border-right: 1px solid;
+    margin: 0 10px 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-links > a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+
+    transition: .5s;
+}
+
+.navbar-links > a:hover {
+    background: #11a8b3;
+}
+
+.github-profile {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+    margin-right: 40px;
+}
+
+.github-profile > a {
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.github-profile > a:hover {
+    text-decoration: underline;
+}

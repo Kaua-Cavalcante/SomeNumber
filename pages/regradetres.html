@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/regradetres.css">
+    <title>Regra de três simples</title>
+</head>
+<body>
+    <div class="geral">
+    <header>
+        <div class="navbar-content">
+            <div class="navbar-home">
+                <a href="../index.html"><strong>SomeNumber</strong></a>
+            </div>
+            <div class="separador"></div>
+            <div class="navbar-links">
+                <a href="./operadores.html">Operadores Básicos</a>
+                <a href="./regradetres.html">Regra de Três</a>
+                <a href="./restodedivisao.html">Resto de Divisão</a>
+                <a href="./porcentagem.html">Porcentagem</a>
+            </div>
+            <div class="github-profile">
+                <a href="https://github.com/Kaua-Cavalcante" target="_blank">GitHub @Kaua-Cavalcante</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="description">
+            <h1>Regra de três simples</h1>
+            <h2>A calculadora de regra de três simples permite descobrir um número com base na proporção de outros 
+                três que são conhecidos.</h2>
+        </div>
+        <div class="calculadora">
+            <input type="number" class="a" placeholder="A" onkeyup="regraDeTres()">
+                <span>está para</span> 
+            <input type="number" class="b" placeholder="B" onkeyup="regraDeTres()">
+            <div class="break"></div>
+                <p>ASSIM COMO</p>
+            <div class="break"></div>
+            <input type="number" class="c" placeholder="C" onkeyup="regraDeTres()">
+                <span>está para</span>
+            <div class="result-container"><p class="resultado">X</p></div>
+        </div>
+    </section>
+    <section>
+        <div class="description more-description">
+            <h3>O que é regra de três?</h3>
+            <p>A regra de três é uma técnica usada para encontrar uma medida quando conhecemos outras três,
+                desde que essas quatro medidas formem uma proporção. Esse método, conhecido como regra de três,
+                faz uso de alguns conhecimentos importantes: propriedade fundamental das proporções,
+                grandezas e medidas, razões e proporções. Pode-se dizer que a união de todos esses
+                conhecimentos resulta, entre outras coisas, no que conhecemos como regra de três.</p>
+            <h3>Como é feita a regra de três?</h3>
+            <p> Construir uma tabela, agrupando as grandezas da mesma espécie em colunas e mantendo na mesma linha as grandezas de espécies diferentes em correspondência.
+            Identificar se as grandezas são diretamente ou inversamente proporcionais.
+            Montar a proporção e resolver a equação.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">            
+            <a href="https://github.com/Kaua-Cavalcante" target="_blank">GitHub @Kaua-Cavalcante</a>
+            <h5>SomeNumber</h5>
+        </div>
+    </footer>
+    </div>
+
+    <script src="../scripts/calculos.js"></script>
+</body>
+</html>

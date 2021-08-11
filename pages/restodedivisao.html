@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/resto.css">
+    <title>Resto de divisão</title>
+</head>
+<body>
+    <div class="geral">
+        <header>
+            <div class="navbar-content">
+                <div class="navbar-home">
+                    <a href="../index.html"><strong>SomeNumber</strong></a>
+                </div>
+                <div class="separador"></div>
+                <div class="navbar-links">
+                    <a href="./operadores.html">Operadores Básicos</a>
+                    <a href="./regradetres.html">Regra de Três</a>
+                    <a href="./restodedivisao.html">Resto de Divisão</a>
+                    <a href="./porcentagem.html">Porcentagem</a>
+                </div>
+                <div class="github-profile">
+                    <a href="https://github.com/Kaua-Cavalcante" target="_blank">GitHub @Kaua-Cavalcante</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="description">
+                <h1>Resto de divisão</h1>
+                <h2>Calculadora de resto de divisão</h2>
+            </div>
+            <div class="calculadora">
+                <input type="number" class="a" placeholder="A"> <span>divido por</span> <input type="number" class="b" placeholder="B">
+                <div class="break"></div>
+                <button onclick="restante()">Calcular</button>
+                <div class="result"><p class="resultado">Resto da divisão</p></div>
+            </div>
+        </section>
+        <section>
+            <div class="description more-description">
+                <h3>O que é resto de divisão inteira?</h3>
+                <p>Na matemática, nem sempre o resultado de uma divisão entre dois inteiros pode ser representado por um quociente
+                 inteiro a menos que seja explicitado também o resto da divisão inteira. Este resto é o valor
+                 que sobra da divisão para que o quociente permaneça um inteiro.</p>
+
+                <h3>Como calcular o resto de divisão?</h3>
+                <p>Para encontrar o resto, apenas realize a divisão.
+                 Haverá um momento em que não será mais possível dividir, pois o número restante será maior ou igual a zero e menor que o divisor.</p>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">            
+                <a href="https://github.com/Kaua-Cavalcante" target="_blank">GitHub @Kaua-Cavalcante</a>
+                <h5>SomeNumber</h5>
+            </div>
+        </footer>
+        <script src="../scripts/calculos.js"></script>
+</body>
+</html>

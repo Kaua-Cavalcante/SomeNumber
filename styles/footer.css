@@ -1,0 +1,31 @@
+footer {
+    position: absolute;
+
+    padding: 48px 0;
+    width: 100%;
+
+    border: solid 1px #c4c4c4;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 40px;
+    padding: 0 40px;
+}
+
+.footer-container > h5 {
+    font-size: 18px;
+    color: #11a8b3;
+}
+
+.footer-container > a {
+    font-size: 14px;
+    color: #11a8b3;
+}
+
+.footer-container > a:hover {
+    text-decoration: underline;
+    color: #1157b3;
+}
