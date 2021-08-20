@@ -38,7 +38,33 @@
                 <h2>Calculadora que permite calcular porcentagem de várias formas.</h2>
             </div>
             <div class="calculadora">
-                
+                <span>Quanto é</span> <input class="a1" type="number" placeholder="X%"> <span>de</span> <input class="a2" type="number" placeholder="Y"><span>?</span>
+                <div class="break"></div> 
+                <div class="result-container">
+                    <button onclick="porcentagem1()">Calcular</button>
+                    <div class="result1"><p class="resultado1 font-contrast1">Resultado</p></div>
+                </div>
+
+                <span>O valor</span> <input class="b1" type="number" placeholder="X"> <span>é qual porcentagem de</span> <input class="b2" type="number" placeholder="Y"><span>?</span>
+                <div class="break"></div> 
+                <div class="result-container">
+                    <button onclick="porcentagem2()">Calcular</button>
+                    <div class="result2"><p class="resultado2 font-contrast2">Resultado</p></div>
+                </div>
+
+                <span>O valor</span> <input class="c1" type="number" placeholder="X"> <span>sofreu um AUMENTO para</span> <input class="c2" type="number" placeholder="Y"> <span>Qual foi o aumento percentual?</span>
+                <div class="break"></div> 
+                <div class="result-container">
+                    <button onclick="aumento()">Calcular</button>
+                    <div class="result3"><p class="resultado3 font-contrast3">Resultado</p></div>
+                </div>
+
+                <span>O valor</span> <input class="d1" type="number" placeholder="X"> <span>sofreu uma DIMINUIÇÃO para</span> <input class="d2" type="number" placeholder="Y"> <span>Qual foi o aumento percentual?</span>
+                <div class="break"></div> 
+                <div class="result-container">
+                    <button onclick="decrescimo()">Calcular</button>
+                    <div class="result4"><p class="resultado4 font-contrast4">Resultado</p></div>
+                </div>
             </div>
         </section>
         <footer>
@@ -47,5 +73,7 @@
                 <h5>SomeNumber</h5>
             </div>
         </footer>
+
+        <script src="../scripts/calculos.js"></script>
 </body>
 </html>
